@@ -1,4 +1,4 @@
-# Astera corrected computational package
+# Astera computational package
 
 Companion to *Tillage impacts on soil microbiomes differ by organismal group, community metric, and sensitivity to sampling imbalance.* Prepared 2026-10-23; not yet uploaded as a corrected public release.
 
