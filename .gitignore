@@ -1,0 +1,15 @@
+data/
+results/
+figures/
+audit/
+*.fastq
+*.fastq.gz
+*.tar
+*.zip
+*.rds
+.Rhistory
+.RData
+.env
+.venv/
+__pycache__/
+*.pyc
