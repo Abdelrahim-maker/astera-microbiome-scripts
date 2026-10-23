@@ -1,0 +1,175 @@
+result_path,workflow_script,provenance_status,notes
+figures/16S/16S_maaslin2_lollipop.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/16S/16S_network_NT.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/16S/16S_network_NT_carbon_overlay.png,source/original/make_carbon_network_overlays.R,documented_workflow,
+figures/16S/16S_network_NT_maaslin_overlay.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/16S/16S_network_panel_labeled_overlay.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/16S/16S_network_till.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/16S/16S_network_till_carbon_overlay.png,source/original/make_carbon_network_overlays.R,documented_workflow,
+figures/16S/16S_network_till_maaslin_overlay.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/16S/16S_nmds.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/16S/16S_observed_boxplot.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/16S/16S_rarefaction.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/16S/16S_shannon_boxplot.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/AMF/AMF_maaslin2_lollipop.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/AMF/AMF_network_NT.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/AMF/AMF_network_NT_carbon_overlay.png,source/original/make_carbon_network_overlays.R,documented_workflow,
+figures/AMF/AMF_network_NT_maaslin_overlay.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/AMF/AMF_network_panel_labeled_overlay.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/AMF/AMF_network_till.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/AMF/AMF_network_till_carbon_overlay.png,source/original/make_carbon_network_overlays.R,documented_workflow,
+figures/AMF/AMF_network_till_maaslin_overlay.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/AMF/AMF_nmds.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/AMF/AMF_observed_boxplot.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/AMF/AMF_rarefaction.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/AMF/AMF_shannon_boxplot.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/ITS/ITS_maaslin2_lollipop.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/ITS/ITS_network_NT.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/ITS/ITS_network_NT_carbon_overlay.png,source/original/make_carbon_network_overlays.R,documented_workflow,
+figures/ITS/ITS_network_NT_maaslin_overlay.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/ITS/ITS_network_panel_labeled_overlay.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/ITS/ITS_network_till.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/ITS/ITS_network_till_carbon_overlay.png,source/original/make_carbon_network_overlays.R,documented_workflow,
+figures/ITS/ITS_network_till_maaslin_overlay.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/ITS/ITS_nmds.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/ITS/ITS_observed_boxplot.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/ITS/ITS_rarefaction.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/ITS/ITS_shannon_boxplot.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/cross_domain_network_NT.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/cross_domain_network_NT_maaslin_overlay.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/cross_domain_network_till.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/cross_domain_network_till_maaslin_overlay.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+figures/joint_rpca_proxy_plot.png,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/16S/16S_alpha_wilcox.csv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/16S/16S_maaslin2/all_results.tsv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/16S/16S_maaslin2/features/filtered_data.tsv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/16S/16S_maaslin2/features/filtered_data_norm.tsv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/16S/16S_maaslin2/features/filtered_data_norm_transformed.tsv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/16S/16S_maaslin2/significant_results.tsv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/16S/16S_maaslin2_nt_vs_till_results.csv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/16S/16S_network_NT_nodes_taxonomy.csv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/16S/16S_network_NT_nodes_with_maaslin.csv,,generating_postprocessing_script_not_found,"Archived network/MaAsLin2 annotation or summary; underlying inputs and main analysis script included, but exact postprocessing command was not recovered."
+results/16S/16S_network_till_nodes_taxonomy.csv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/16S/16S_network_till_nodes_with_maaslin.csv,,generating_postprocessing_script_not_found,"Archived network/MaAsLin2 annotation or summary; underlying inputs and main analysis script included, but exact postprocessing command was not recovered."
+results/16S/16S_nmds_permanova.csv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/AMF/AMF_alpha_wilcox.csv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/AMF/AMF_maaslin2/all_results.tsv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/AMF/AMF_maaslin2/features/filtered_data.tsv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/AMF/AMF_maaslin2/features/filtered_data_norm.tsv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/AMF/AMF_maaslin2/features/filtered_data_norm_transformed.tsv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/AMF/AMF_maaslin2/significant_results.tsv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/AMF/AMF_maaslin2_nt_vs_till_results.csv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/AMF/AMF_network_NT_nodes_taxonomy.csv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/AMF/AMF_network_NT_nodes_with_maaslin.csv,,generating_postprocessing_script_not_found,"Archived network/MaAsLin2 annotation or summary; underlying inputs and main analysis script included, but exact postprocessing command was not recovered."
+results/AMF/AMF_network_till_nodes_taxonomy.csv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/AMF/AMF_network_till_nodes_with_maaslin.csv,,generating_postprocessing_script_not_found,"Archived network/MaAsLin2 annotation or summary; underlying inputs and main analysis script included, but exact postprocessing command was not recovered."
+results/AMF/AMF_nmds_permanova.csv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/ITS/ITS_alpha_wilcox.csv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/ITS/ITS_maaslin2/all_results.tsv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/ITS/ITS_maaslin2/features/filtered_data.tsv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/ITS/ITS_maaslin2/features/filtered_data_norm.tsv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/ITS/ITS_maaslin2/features/filtered_data_norm_transformed.tsv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/ITS/ITS_maaslin2/significant_results.tsv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/ITS/ITS_maaslin2_nt_vs_till_results.csv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/ITS/ITS_network_NT_nodes_taxonomy.csv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/ITS/ITS_network_NT_nodes_with_maaslin.csv,,generating_postprocessing_script_not_found,"Archived network/MaAsLin2 annotation or summary; underlying inputs and main analysis script included, but exact postprocessing command was not recovered."
+results/ITS/ITS_network_till_nodes_taxonomy.csv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/ITS/ITS_network_till_nodes_with_maaslin.csv,,generating_postprocessing_script_not_found,"Archived network/MaAsLin2 annotation or summary; underlying inputs and main analysis script included, but exact postprocessing command was not recovered."
+results/ITS/ITS_nmds_permanova.csv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/carbon_analysis/16S/16S_maaslin2_carbon/all_results.tsv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/16S/16S_maaslin2_carbon/features/filtered_data.tsv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/16S/16S_maaslin2_carbon/features/filtered_data_norm.tsv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/16S/16S_maaslin2_carbon/features/filtered_data_norm_transformed.tsv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/16S/16S_maaslin2_carbon/significant_results.tsv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/16S/16S_maaslin2_treatment_carbon_results.csv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/AMF/AMF_maaslin2_carbon/all_results.tsv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/AMF/AMF_maaslin2_carbon/features/filtered_data.tsv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/AMF/AMF_maaslin2_carbon/features/filtered_data_norm.tsv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/AMF/AMF_maaslin2_carbon/features/filtered_data_norm_transformed.tsv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/AMF/AMF_maaslin2_carbon/significant_results.tsv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/AMF/AMF_maaslin2_treatment_carbon_results.csv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/ITS/ITS_maaslin2_carbon/all_results.tsv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/ITS/ITS_maaslin2_carbon/features/filtered_data.tsv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/ITS/ITS_maaslin2_carbon/features/filtered_data_norm.tsv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/ITS/ITS_maaslin2_carbon/features/filtered_data_norm_transformed.tsv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/ITS/ITS_maaslin2_carbon/significant_results.tsv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/ITS/ITS_maaslin2_treatment_carbon_results.csv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/carbon_joint_permanova.csv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/carbon_maaslin_all_domains.csv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/carbon_maaslin_effect_summary.csv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/carbon_metadata_summary.csv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/carbon_permanova_by_domain.csv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/carbon_taxa_network_enrichment_overlap.csv,source/original/make_carbon_overlap_figures.R,documented_workflow,
+results/carbon_analysis/carbon_taxa_network_enrichment_overlap_summary.csv,source/original/make_carbon_overlap_figures.R,documented_workflow,
+results/carbon_analysis/carbon_top_network_taxa_ranked.csv,source/original/make_carbon_overlap_figures.R,documented_workflow,
+results/carbon_analysis/carbon_treatment_wilcox.csv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/carbon_variance_partition_by_domain.csv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/hub_enriched_asv_carbon_correlations.csv,source/original/make_carbon_overlap_figures.R,documented_workflow,
+results/carbon_analysis/hub_enriched_asv_carbon_correlations_top.csv,source/original/make_carbon_overlap_figures.R,documented_workflow,
+results/carbon_analysis/network_bootstrap_stats_with_carbon.csv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/network_metric_carbon_associations.csv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/top_carbon_main_taxa_q025.csv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/top_carbon_slope_diff_taxa_q025.csv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/carbon_analysis/top_treatment_taxa_after_carbon_q025.csv,source/original/run_nt_vs_till_carbon_analysis.R,documented_workflow,
+results/common_nodes_nt_till_maaslin.csv,,generating_postprocessing_script_not_found,"Archived network/MaAsLin2 annotation or summary; underlying inputs and main analysis script included, but exact postprocessing command was not recovered."
+results/common_nodes_overlap_stats.csv,,generating_postprocessing_script_not_found,"Archived network/MaAsLin2 annotation or summary; underlying inputs and main analysis script included, but exact postprocessing command was not recovered."
+results/cross_domain_network_NT_nodes_taxonomy.csv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/cross_domain_network_NT_nodes_with_maaslin.csv,,generating_postprocessing_script_not_found,"Archived network/MaAsLin2 annotation or summary; underlying inputs and main analysis script included, but exact postprocessing command was not recovered."
+results/cross_domain_network_till_nodes_taxonomy.csv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/cross_domain_network_till_nodes_with_maaslin.csv,,generating_postprocessing_script_not_found,"Archived network/MaAsLin2 annotation or summary; underlying inputs and main analysis script included, but exact postprocessing command was not recovered."
+results/dataset_summary.csv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/enriched_hub_fisher_tests.csv,,generating_postprocessing_script_not_found,"Archived network/MaAsLin2 annotation or summary; underlying inputs and main analysis script included, but exact postprocessing command was not recovered."
+results/enriched_hubs_by_network.csv,,generating_postprocessing_script_not_found,"Archived network/MaAsLin2 annotation or summary; underlying inputs and main analysis script included, but exact postprocessing command was not recovered."
+results/enriched_in_cross_domain_hubs.csv,,generating_postprocessing_script_not_found,"Archived network/MaAsLin2 annotation or summary; underlying inputs and main analysis script included, but exact postprocessing command was not recovered."
+results/enriched_in_cross_domain_hubs_summary.csv,,generating_postprocessing_script_not_found,"Archived network/MaAsLin2 annotation or summary; underlying inputs and main analysis script included, but exact postprocessing command was not recovered."
+results/enriched_vs_network_importance_examples.csv,,generating_postprocessing_script_not_found,"Archived network/MaAsLin2 annotation or summary; underlying inputs and main analysis script included, but exact postprocessing command was not recovered."
+results/enriched_vs_network_importance_summary.csv,,generating_postprocessing_script_not_found,"Archived network/MaAsLin2 annotation or summary; underlying inputs and main analysis script included, but exact postprocessing command was not recovered."
+results/hub_nodes_taxonomy_maaslin.csv,,generating_postprocessing_script_not_found,"Archived network/MaAsLin2 annotation or summary; underlying inputs and main analysis script included, but exact postprocessing command was not recovered."
+results/hub_taxonomy_and_maaslin_overlap.xlsx,,generating_postprocessing_script_not_found,"Archived network/MaAsLin2 annotation or summary; underlying inputs and main analysis script included, but exact postprocessing command was not recovered."
+results/imbalance_sensitivity/alpha_balanced_subsamples.csv,source/original/run_nt_vs_till_balance_sensitivity.R,documented_workflow,
+results/imbalance_sensitivity/alpha_balanced_summary.csv,source/original/run_nt_vs_till_balance_sensitivity.R,documented_workflow,
+results/imbalance_sensitivity/alpha_observed.csv,source/original/run_nt_vs_till_balance_sensitivity.R,documented_workflow,
+results/imbalance_sensitivity/joint_balanced_subsamples_permanova.csv,source/original/run_nt_vs_till_balance_sensitivity.R,documented_workflow,
+results/imbalance_sensitivity/joint_balanced_summary.csv,source/original/run_nt_vs_till_balance_sensitivity.R,documented_workflow,
+results/imbalance_sensitivity/joint_observed_permanova.csv,source/original/run_nt_vs_till_balance_sensitivity.R,documented_workflow,
+results/imbalance_sensitivity/maaslin_balanced_feature_recurrence.csv,source/original/run_nt_vs_till_balance_sensitivity.R,documented_workflow,
+results/imbalance_sensitivity/maaslin_balanced_subsamples_significant_features.csv,source/original/run_nt_vs_till_balance_sensitivity.R,documented_workflow,
+results/imbalance_sensitivity/maaslin_balanced_subsamples_summary.csv,source/original/run_nt_vs_till_balance_sensitivity.R,documented_workflow,
+results/imbalance_sensitivity/maaslin_balanced_summary.csv,source/original/run_nt_vs_till_balance_sensitivity.R,documented_workflow,
+results/imbalance_sensitivity/maaslin_observed_significant_features.csv,source/original/run_nt_vs_till_balance_sensitivity.R,documented_workflow,
+results/imbalance_sensitivity/maaslin_observed_summary.csv,source/original/run_nt_vs_till_balance_sensitivity.R,documented_workflow,
+results/imbalance_sensitivity/network_balanced_subsamples_stats.csv,source/original/run_nt_vs_till_balance_sensitivity.R,documented_workflow,
+results/imbalance_sensitivity/network_balanced_summary.csv,source/original/run_nt_vs_till_balance_sensitivity.R,documented_workflow,
+results/imbalance_sensitivity/network_observed_stats.csv,source/original/run_nt_vs_till_balance_sensitivity.R,documented_workflow,
+results/imbalance_sensitivity/ordination_balanced_subsamples_permanova_permdisp.csv,source/original/run_nt_vs_till_balance_sensitivity.R,documented_workflow,
+results/imbalance_sensitivity/ordination_balanced_summary.csv,source/original/run_nt_vs_till_balance_sensitivity.R,documented_workflow,
+results/imbalance_sensitivity/ordination_observed_permanova_permdisp.csv,source/original/run_nt_vs_till_balance_sensitivity.R,documented_workflow,
+results/joint_rpca_proxy_permanova.csv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/network_degree_tests_nt_vs_till.csv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/network_edges/16S_NT_edges.csv,source/reconstruct_network_edges.py,documented_workflow,Reconstructed and checked against original node degrees/hubs.
+results/network_edges/16S_till_edges.csv,source/reconstruct_network_edges.py,documented_workflow,Reconstructed and checked against original node degrees/hubs.
+results/network_edges/AMF_NT_edges.csv,source/reconstruct_network_edges.py,documented_workflow,Reconstructed and checked against original node degrees/hubs.
+results/network_edges/AMF_till_edges.csv,source/reconstruct_network_edges.py,documented_workflow,Reconstructed and checked against original node degrees/hubs.
+results/network_edges/ITS_NT_edges.csv,source/reconstruct_network_edges.py,documented_workflow,Reconstructed and checked against original node degrees/hubs.
+results/network_edges/ITS_till_edges.csv,source/reconstruct_network_edges.py,documented_workflow,Reconstructed and checked against original node degrees/hubs.
+results/network_edges/README.md,source/reconstruct_network_edges.py,documented_workflow,Reconstructed and checked against original node degrees/hubs.
+results/network_edges/cross_domain_NT_edges.csv,source/reconstruct_network_edges.py,documented_workflow,Reconstructed and checked against original node degrees/hubs.
+results/network_edges/cross_domain_till_edges.csv,source/reconstruct_network_edges.py,documented_workflow,Reconstructed and checked against original node degrees/hubs.
+results/network_edges/validation.csv,source/reconstruct_network_edges.py,documented_workflow,Reconstructed and checked against original node degrees/hubs.
+results/network_nodes_enriched_pairs.csv,,generating_postprocessing_script_not_found,"Archived network/MaAsLin2 annotation or summary; underlying inputs and main analysis script included, but exact postprocessing command was not recovered."
+results/network_nodes_maaslin_link_summary.csv,,generating_postprocessing_script_not_found,"Archived network/MaAsLin2 annotation or summary; underlying inputs and main analysis script included, but exact postprocessing command was not recovered."
+results/network_stats_summary.csv,source/original/run_mf_nt_vs_vtill_multidomain.R,documented_workflow,
+results/ordination/README.md,source/original/ordination/make_ordination.py,documented_workflow,Historical manuscript-cohort outputs; original scripts require workspace workbook/exports.
+results/ordination/STATISTICS.md,source/original/ordination/add_statistics.py,documented_workflow,Historical manuscript-cohort outputs; original scripts require workspace workbook/exports.
+results/ordination/beta_diversity_by_sample_date.pdf,source/original/ordination/make_ordination.py,documented_workflow,Historical manuscript-cohort outputs; original scripts require workspace workbook/exports.
+results/ordination/beta_diversity_by_sample_date.png,source/original/ordination/make_ordination.py,documented_workflow,Historical manuscript-cohort outputs; original scripts require workspace workbook/exports.
+results/ordination/beta_diversity_by_sample_date_with_statistics.pdf,source/original/ordination/add_statistics.py,documented_workflow,Historical manuscript-cohort outputs; original scripts require workspace workbook/exports.
+results/ordination/beta_diversity_by_sample_date_with_statistics.png,source/original/ordination/add_statistics.py,documented_workflow,Historical manuscript-cohort outputs; original scripts require workspace workbook/exports.
+results/ordination/date_by_site_counts.csv,source/original/ordination/make_ordination.py,documented_workflow,Historical manuscript-cohort outputs; original scripts require workspace workbook/exports.
+results/ordination/date_group_statistics.csv,source/original/ordination/add_statistics.py,documented_workflow,Historical manuscript-cohort outputs; original scripts require workspace workbook/exports.
+results/ordination/ordination_coordinates.csv,source/original/ordination/make_ordination.py,documented_workflow,Historical manuscript-cohort outputs; original scripts require workspace workbook/exports.
+results/ordination/ordination_summary.csv,source/original/ordination/make_ordination.py,documented_workflow,Historical manuscript-cohort outputs; original scripts require workspace workbook/exports.
+results/ordination/sample_counts_by_date.csv,source/original/ordination/make_ordination.py,documented_workflow,Historical manuscript-cohort outputs; original scripts require workspace workbook/exports.
+results/top10_important_nodes_enrichment_summary.csv,,generating_postprocessing_script_not_found,"Archived network/MaAsLin2 annotation or summary; underlying inputs and main analysis script included, but exact postprocessing command was not recovered."
+results/top10_important_nodes_with_enrichment.csv,,generating_postprocessing_script_not_found,"Archived network/MaAsLin2 annotation or summary; underlying inputs and main analysis script included, but exact postprocessing command was not recovered."
+results/top_hubs_by_network.csv,,generating_postprocessing_script_not_found,"Archived network/MaAsLin2 annotation or summary; underlying inputs and main analysis script included, but exact postprocessing command was not recovered."

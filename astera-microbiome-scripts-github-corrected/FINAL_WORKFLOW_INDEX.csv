@@ -1,0 +1,9 @@
+manuscript_result,script,reference_outputs,validation_scope
+Table 2; Figures 1/9; rarefaction supplement,source/final/rarefied_alpha.py,final_reference/rarefaction,recomputed from counts
+Unique-ASV retention,source/final/rarefied_unique_asvs.py,final_reference/rarefaction,recomputed from counts
+Tables 7/8A; dbRDA and partitions,source/final/full_dbrda.py,final_reference/full_dbrda,recomputed from counts and profile metadata
+Table 8B,source/final/variance_without_date.py,final_reference/variance_without_date,recomputed from regenerated subset fits
+Table 9; date-only models,source/final/restricted_permanova.py,final_reference/restricted_permanova,recomputed from counts and profile metadata
+Adjusted carbon analyses,source/final/adjusted_carbon.py,final_reference/adjusted_carbon,recomputed using recorded/conflict-exclusion values
+Figures 2-8/S54,source/final/rebuild_figures.py,final_reference/manuscript_figures,mix of regenerated outputs and rendering archived original R results
+Table S7 corrected column values,archived source: additional_scripts/manuscript/draft3/balanced_cross_network/run.R,final_reference/balanced_cross_network,reference outputs included; R model not rerun

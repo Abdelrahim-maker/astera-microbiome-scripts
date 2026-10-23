@@ -1,0 +1,3 @@
+# Additional manuscript R and Python scripts
+
+Original scripts are preserved under their workspace-relative paths, including manuscript assembly, audits, figure preparation, sample-date analyses, dbRDA, carbon analyses, and rarefaction revisions. Historical revisions and alternative cohorts are included for provenance; their outputs must not automatically be combined with the final manuscript cohort. These scripts were not rerun during packaging. They may require original workbook, metadata, intermediate files, software or hard-coded workspace paths beyond the deposit. They are not a single sequential workflow. See SCRIPT_MANIFEST.csv for source paths and hashes. The existing source/ folder retains the previously packaged principal analysis and validation scripts.

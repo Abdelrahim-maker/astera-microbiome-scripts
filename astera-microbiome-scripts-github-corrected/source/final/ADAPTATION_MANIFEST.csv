@@ -1,0 +1,6 @@
+portable_script,original_source,original_sha256,change
+source/final/rarefied_alpha.py,manuscript/draft3_rarefied/source/rarefied_alpha.py,cb66740002945e446bb0421df91cef02917705290582236acbf0994871f804aa,"Public CSV inputs, pseudonymous profile IDs and isolated output paths; statistical procedure retained."
+source/final/rarefied_unique_asvs.py,manuscript/draft3_rarefied/source/rarefied_unique_asvs.py,030b908ac68bb89d9012721f011941443a13887464e1eed02fd647f9eee172be,"Public CSV inputs, pseudonymous profile IDs and isolated output paths; statistical procedure retained."
+source/final/full_dbrda.py,manuscript/draft3/source/reproduce_dbrda.py,9d5250c8c8df402cfb623c668a395b8965cb7399b9a49f7afff84ee1dee06e29,"Public CSV inputs, pseudonymous profile IDs and isolated output paths; statistical procedure retained."
+source/final/restricted_permanova.py,analysis_outputs/restricted_permanova_separate_dbrda/run_analysis.py,c930f0f85ccae0cadd9927c06741228bdb20d3057db7c07e95b592dfe5dbcf5c,"Public CSV inputs, pseudonymous profile IDs and isolated output paths; statistical procedure retained."
+source/final/adjusted_carbon.py,manuscript/draft3/carbon_adjusted/source/analyze.py,42da3d0717143aa46a132b10814f7185c28355a2f832c501fca30998f766a461,"Public CSV inputs, pseudonymous profile IDs and isolated output paths; statistical procedure retained."

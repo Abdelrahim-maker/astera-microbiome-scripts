@@ -1,0 +1,5 @@
+# Validated versus archival workflows
+
+Run `python source/run_final_checks.py` from the extracted package. FINAL_WORKFLOW_INDEX.csv identifies the portable workflows and archived reference results. Numerical comparisons use rtol=1e-7 and atol=1e-8 unless explicitly noted; permutations retain recorded seeds and counts. Shared CSV metadata replaces private source profile labels with stable pseudonyms. See data/METADATA_NOTES.md for unresolved chemistry and cohort definitions.
+
+The original WORKFLOW_INDEX.csv remains a legacy index, including explicitly unresolved postprocessing provenance. Original scripts in source/original, denosing and additional_scripts are archival; do not run all revisions sequentially. The portable code regenerates selected final statistical analyses and plots; it does not rerun MaAsLin2, raw DADA2, original R balance-sensitivity, or every historical model. Some figures render their archived results. The recorded environment was exercised here; fresh package installation has not been tested.

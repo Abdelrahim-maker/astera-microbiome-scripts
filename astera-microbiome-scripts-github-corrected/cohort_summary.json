@@ -1,0 +1,17 @@
+[
+  {
+    "marker": "16S",
+    "samples": 44,
+    "observed_ASVs": 9526
+  },
+  {
+    "marker": "ITS",
+    "samples": 43,
+    "observed_ASVs": 155
+  },
+  {
+    "marker": "AMF",
+    "samples": 44,
+    "observed_ASVs": 790
+  }
+]
