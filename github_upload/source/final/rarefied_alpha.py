@@ -5,12 +5,8 @@ import numpy as np,pandas as pd
 from scipy.special import gammaln
 from scipy.stats import mannwhitneyu
 from statsmodels.stats.multitest import multipletests
-import matplotlib
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
-from matplotlib.lines import Line2D
 O=ROOT/'reproduced/rarefied';R=O/'rarefaction';R.mkdir(parents=True,exist_ok=True)
-(O/'figures').mkdir(exist_ok=True);(O/'audit').mkdir(exist_ok=True)
+(O/'audit').mkdir(exist_ok=True)
 D=['16S','ITS','AMF'];lab={'16S':'16S','ITS':'ITS','AMF':'18S (AMF)'};B=200;SEED=20260926
 colors={'NT':'#168a76','vtill':'#d76b13'}
 def expected(v,k):
@@ -20,9 +16,6 @@ def expected(v,k):
  valid=N-v>=k;l=np.full(len(v),-np.inf)
  l[valid]=gammaln(N-v[valid]+1)-gammaln(N-v[valid]-k+1)-gammaln(N+1)+gammaln(N-k+1)
  return float((-np.expm1(np.minimum(l,0))).sum())
-def save(fig,name):
- for ext in ['png','pdf','svg']:fig.savefig(O/'figures'/f'{name}.{ext}',dpi=300,bbox_inches='tight')
- plt.close(fig)
 # Small exact enumeration check of analytic expectation.
 assert np.isclose(expected(np.array([2,1]),2),5/3)
 rows=[];depths=[];curve=[];exclusions=[];testrows=[]
@@ -75,34 +68,4 @@ for (scenario,rep),x in a.groupby(['scenario','replicate']):
  rt+=part
 rt=pd.DataFrame(rt);rt.to_csv(R/'per_draw_tests.csv',index=False)
 summary=rt.groupby(['scenario','marker','metric']).agg(p_min=('p_value','min'),p_median=('p_value','median'),p_max=('p_value','max'),q_min=('q_BH','min'),q_max=('q_BH','max'),draws_p_lt_005=('p_value',lambda x:int((x<.05).sum())),draws_q_lt_005=('q_BH',lambda x:int((x<.05).sum()))).reset_index();summary.to_csv(R/'per_draw_test_summary.csv',index=False)
-plt.rcParams.update({'font.size':12,'axes.spines.top':False,'axes.spines.right':False,'pdf.fonttype':42,'svg.fonttype':'none'})
-fig,axs=plt.subplots(2,3,figsize=(11,7));rng=np.random.default_rng(7)
-for j,d in enumerate(D):
- x=s[(s.marker==d)&(s.scenario=='primary_all_samples')];dep=int(x.depth.iloc[0])
- for i,metric in enumerate(['Observed','Shannon']):
-  ax=axs[i,j];vals=[x.loc[x.management==mg,metric] for mg in ['NT','vtill']];bp=ax.boxplot(vals,patch_artist=True,showfliers=False,medianprops={'color':'black','linewidth':1.7})
-  for b,col in zip(bp['boxes'],colors.values()):b.set(facecolor=col,alpha=.25)
-  for k,(v0,col) in enumerate(zip(vals,colors.values()),1):ax.scatter(k+rng.uniform(-.12,.12,len(v0)),v0,color=col,s=18,alpha=.75)
-  r=primary[(primary.domain==d)&(primary.metric==metric)].iloc[0];ax.set(title=f'{chr(65+3*i+j)}  {lab[d]} · {dep:,} reads\np = {r.p_value:.3f}; q = {r.q_BH:.3f}',xticks=[1,2],xticklabels=['NT','Till'],ylabel='Mean rarefied richness' if i==0 else 'Mean rarefied Shannon')
-fig.tight_layout();save(fig,'figure1_alpha')
-fig,axs=plt.subplots(2,3,figsize=(11,7))
-for j,d in enumerate(D):
- dep=int(primary[primary.domain==d].depth.iloc[0])
- for i in [0,1]:
-  ax=axs[i,j]
-  for sid,x in c[c.marker==d].groupby('sample_id'):
-   x=x[(x.reads>0)] if i==0 else x[x.reads<=dep];ax.plot(x.reads.to_numpy(),x.expected_richness.to_numpy(),color=colors[x.management.iloc[0]],lw=.8,alpha=.5)
-  ax.axvline(dep,color='black',ls='--',lw=1)
-  if i==0:ax.set_xscale('log')
-  else:ax.set_xlim(0,dep*1.04)
-  ax.set(title=f'{chr(65+3*i+j)}  {lab[d]}' + (' · full libraries' if i==0 else f' · to {dep:,} reads'),xlabel='Reads sampled (log scale)' if i==0 else 'Reads sampled',ylabel='Expected ASV richness')
-fig.legend(handles=[Line2D([],[],color=col,label='Till' if mg=='vtill' else mg) for mg,col in colors.items()]+[Line2D([],[],color='black',ls='--',label='Primary rarefaction depth')],loc='lower center',ncol=3,frameon=False)
-fig.tight_layout(rect=(0,.07,1,1));save(fig,'figure9_rarefaction')
-(R/'README.md').write_text('''# Rarefied alpha diversity
-Primary depths are the minimum retained library size for each marker; no samples are excluded. A secondary, label-blind depth is the largest observed depth retaining at least 95% of each marker cohort. Each sample is subsampled without replacement 200 times with NumPy multivariate_hypergeometric. Main tests use one mean richness and one mean natural-log Shannon value per biological observation, not 200 pseudo-replicates. Two-sided asymptotic Mann–Whitney/Wilcoxon rank-sum tests use tie and continuity corrections; BH is across six tests separately for each depth scenario. Per-draw tests describe rarefaction randomness, not independent experiments. Confounding and profile dependence remain; these are exploratory unadjusted management comparisons.
-
-Rarefaction curves use exact hypergeometric expected richness: sum_i [1 - choose(N-n_i,k)/choose(N,k)]. Zero-only features do not affect curves. No extrapolation, additional ASV filtering, or count rounding was applied. Existing filtering/singleton limitations in the supplied processed matrices remain. Read rarefaction cannot recover previously removed taxa. Seeds, excluded IDs, all 200-draw metrics, and numerical validation are exported.
-
-References: https://vegandevs.github.io/vegan/reference/rarefy.html ; https://numpy.org/doc/stable/reference/random/generated/numpy.random.Generator.multivariate_hypergeometric.html
-''')
-print(st.to_string(index=False));print(summary.to_string(index=False))
+print('Completed rarefaction; numerical outputs generated locally. No figures are created.')

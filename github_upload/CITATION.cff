@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Cite the version-specific Zenodo DOI after this release is published."
+message: "Cite the data/code DOI after publication; the preprint will have a separate citation."
 title: "Soil microbial diversity and association networks under tillage and no-tillage in Ohio soybean fields"
 type: software
 authors:
@@ -16,4 +16,5 @@ authors:
   - family-names: Rich
     given-names: Virginia I.
 repository-code: "https://github.com/Abdelrahim-maker/astera-microbiome-scripts"
-version: "2026-10-23-focused-draft"
+version: "2.0.0"
+doi: "10.5281/zenodo.23603407"
