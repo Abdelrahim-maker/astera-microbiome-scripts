@@ -1,0 +1,1 @@
+Python 3.9; package pins describe the environment used for retained numeric workflows, with python-docx added for Word generation. A fresh pip installation of this full file was not tested. R and Maaslin2 were unavailable; R adapters are provided unvalidated. Raw-read processing was not rerun.

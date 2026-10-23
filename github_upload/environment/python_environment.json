@@ -1,0 +1,13 @@
+{
+  "python": "3.9.21",
+  "packages": {
+    "numpy": "1.23.5",
+    "pandas": "2.3.3",
+    "scipy": "1.9.3",
+    "statsmodels": "0.14.6",
+    "matplotlib": "3.4.3",
+    "threadpoolctl": "3.6.0",
+    "openpyxl": "3.1.5"
+  },
+  "scope": "Portable final-analysis reproduction tested 2026-10-23; not original R or raw processing environment"
+}

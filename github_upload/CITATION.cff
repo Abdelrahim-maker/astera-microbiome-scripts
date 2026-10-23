@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Cite the version-specific Zenodo DOI after this release is published."
+title: "Soil microbial diversity and association networks under tillage and no-tillage in Ohio soybean fields"
+type: software
+authors:
+  - family-names: Abdelrahim
+    given-names: Afaf
+  - family-names: Ogg
+    given-names: Alec
+  - family-names: Lorenz
+    given-names: Klaus
+  - family-names: Lal
+    given-names: Rattan
+  - family-names: Demyan
+    given-names: M. Scott
+  - family-names: Rich
+    given-names: Virginia I.
+repository-code: "https://github.com/Abdelrahim-maker/astera-microbiome-scripts"
+version: "2026-10-23-focused-draft"
