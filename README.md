@@ -51,5 +51,6 @@ raw-read-to-final-table processing lineage remains incompletely documented.
 
 ## Licensing
 
-Publication license choices remain to be finalized.
-LICENSE_PLAN.md is a planning document, not a software license.
+Project-authored code is licensed under the [MIT License](LICENSE).
+Third-party materials retain their existing licenses.
+Dataset licensing is specified separately in the Zenodo record.
