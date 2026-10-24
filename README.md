@@ -1,4 +1,4 @@
-# Astera soil microbiome analysis
+# soil microbiome analysis
 
 Sequencing source data and analysis code supporting:
 “Soil microbial diversity and association networks under tillage and no-tillage in Ohio soybean fields.”
