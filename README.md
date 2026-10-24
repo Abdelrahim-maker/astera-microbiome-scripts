@@ -34,7 +34,7 @@ for the current workflow.
 
 ## Data release
 
-Earlier Zenodo version: https://doi.org/10.5281/zenodo.23582246
+ Zenodo version: https://zenodo.org/records/23603407
 
 The matching focused Zenodo version is pending. The earlier deposit
 should not be assumed to contain the revised package.
