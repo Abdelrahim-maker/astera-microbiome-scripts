@@ -68,7 +68,9 @@ This project is organized for transparency and reproducibility, but it is import
 
 ## Licensing
 
-Project-authored code is licensed under the [MIT License](LICENSE). Dataset licensing remains as specified in the published Zenodo record.
+The project code in this repository is distributed under the [MIT License](LICENSE).
+
+Dataset licensing and any publication-specific rights remain governed by the published Zenodo record and the relevant manuscript/data release terms. The file [LICENSE_PLAN.md](LICENSE_PLAN.md) is a planning document only and does not constitute a legal license grant. Third-party notices must be preserved.
 
 ## Contact and maintenance
 

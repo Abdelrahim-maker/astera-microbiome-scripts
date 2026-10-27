@@ -62,4 +62,6 @@ Important limitations include:
 
 ## Licensing
 
-This repository is distributed under the [MIT License](../LICENSE), while dataset licensing remains as specified in the associated Zenodo record.
+Project code in this repository is distributed under the [MIT License](../LICENSE).
+
+Dataset licensing and publication-specific rights remain as specified by the associated Zenodo release and any manuscript/data-use terms. The file [../LICENSE_PLAN.md](../LICENSE_PLAN.md) is a planning document only and is not a legal license grant. Third-party notices must be preserved.
