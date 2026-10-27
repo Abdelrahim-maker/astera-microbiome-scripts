@@ -1,45 +1,75 @@
-# soil microbiome analysis
+# Astera microbiome analysis
 
-Sequencing source data and analysis code supporting:
-“Soil microbial diversity and association networks under tillage and no-tillage in Ohio soybean fields.”
+A public-facing repository for the Astera soil microbiome analysis workflow, including the focused GitHub release and a reproducibility update package.
 
-## Current focused package
+This project supports the analysis of soil microbial diversity and association networks under tillage and no-tillage in Ohio soybean fields.
 
-Start with the [focused package README](github_upload/README.md).
+## Overview
 
-- [Analysis scripts](github_upload/source/)
-- [Computational environment](github_upload/environment/)
+The repository is organized to make the project easy to navigate:
 
-The focused release contains sequencing source data and analysis code. It excludes manuscript text, supplementary documents, figures, workbooks and archived manuscript result tables.
+- [github_upload/README.md](github_upload/README.md) — focused package overview and execution notes
+- [github_upload/source](github_upload/source) — analysis scripts and validation workflow
+- [github_upload/environment](github_upload/environment) — validated environment metadata
+- [github_upload/reproducibility_update_2026_10_27](github_upload/reproducibility_update_2026_10_27) — public reproducibility package and audit artifacts
+- [SOURCE_MANIFEST.csv](SOURCE_MANIFEST.csv) — source manifest
+- [WORKFLOW_INDEX.csv](WORKFLOW_INDEX.csv) — workflow overview
 
-The manuscript and supplementary document are maintained separately for bioRxiv.
+## Current public package
 
-## Data release
+The primary public-facing analysis package is in [github_upload](github_upload).
 
-Published Zenodo dataset, version 2.0.0:
-https://doi.org/10.5281/zenodo.23603407
+Quick links:
 
-Earlier dataset version:
-https://doi.org/10.5281/zenodo.23582246
+- [Focused package README](github_upload/README.md)
+- [Analysis scripts](github_upload/source)
+- [Environment files](github_upload/environment)
+- [Reproducibility package](github_upload/reproducibility_update_2026_10_27)
 
-Extract `Astera_source_data.zip` into the same working directory as the contents of `github_upload/`. Follow the focused package README for execution instructions.
+## Reproducibility update
 
-## Analysis scope and reproducibility
+A GitHub-ready reproducibility update is included in [github_upload/reproducibility_update_2026_10_27](github_upload/reproducibility_update_2026_10_27). It contains:
 
-The Python workflow calculates rarefaction, management-only profile-restricted PERMANOVA and marker-specific networks from source inputs. Running the code generates new numerical outputs locally; no figures are generated.
+- the packaged reproducibility archive
+- verification notes
+- comparison metadata
+- execution metadata
+- balanced comparison results
+- the R environment log
 
-Optional management-only MaAsLin2 and balanced-subsampling R adapters are provided but were not executed in the preparation environment. The balanced adapter generates new subsets; it does not recover the historical selections.
+This package is intended to make the evidence trail and the local audit accessible to the public in a clean, easy-to-navigate format. It is a GitHub-ready update and should not be interpreted as a replacement for the original public Zenodo release.
 
-Collection dates remain metadata, not model predictors. Carbon, cross-marker and date-effect analyses are excluded from the focused workflow.
+## Data release and context
 
-Management and collection date are confounded. Recorded profile identifiers do not establish independent farm replication. The complete historical raw-read-to-final-table processing lineage remains incompletely documented.
+The project references the published Zenodo release and earlier dataset version here:
 
-## Historical materials
+- Zenodo v2.0.0: https://doi.org/10.5281/zenodo.23603407
+- Earlier release: https://doi.org/10.5281/zenodo.23582246
 
-[astera-microbiome-scripts-github-corrected/](astera-microbiome-scripts-github-corrected/) preserves the earlier computational package and is superseded for the current focused release.
+The repository focuses on processing scripts, environment metadata, and source-data handling rather than manuscript text or derived figure outputs.
 
-Root-level `WORKFLOWS.md`, `WORKFLOW_INDEX.csv` and `SOURCE_MANIFEST.csv` describe earlier materials. Use the focused package README for the current workflow.
+## Quick start
+
+For the focused analysis workflow, start with:
+
+- [github_upload/README.md](github_upload/README.md)
+- [github_upload/source/run_retained_checks.py](github_upload/source/run_retained_checks.py)
+
+The code is designed to run locally and generate numerical outputs without producing manuscript figures.
+
+## Scope and limitations
+
+This project is organized for transparency and reproducibility, but it is important to keep the limitations explicit:
+
+- The Python workflow covers the retained analyses in the focused package.
+- The optional MaAsLin2 and balanced-subsampling adapters are provided but not treated as complete historical reproduction.
+- Management and collection date are confounded in the study design.
+- The historical raw-read-to-final-table lineage remains incompletely documented and is not claimed as fully reconstructed.
 
 ## Licensing
 
-Project-authored code is licensed under the [MIT License](LICENSE). Dataset licensing is specified separately in the Zenodo record.
+Project-authored code is licensed under the [MIT License](LICENSE). Dataset licensing remains as specified in the published Zenodo record.
+
+## Contact and maintenance
+
+This repository is intended to provide a clear public record of the Astera workflow, audit artifacts, and analysis package for reproducibility and review.

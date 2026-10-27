@@ -1,25 +1,65 @@
-# Astera sequencing data and analysis code
+# Astera focused analysis package
 
-This focused release contains sequencing source data and analysis code only. It excludes the full manuscript, supplementary documents, workbooks, figures, captions, manuscript result tables, archived fitted-model results and network edge exports. The manuscript and supplement remain separate for bioRxiv.
+This directory contains the public, GitHub-ready focused release for the Astera microbiome analysis.
 
-## Data
-Reserved Zenodo DOI: https://doi.org/10.5281/zenodo.23603407 (activates on publication).
-Earlier dataset: https://doi.org/10.5281/zenodo.23582246 .
-The source-data ZIP contains ASV counts, representative FASTA sequences, taxonomy, and sample metadata. Three raw FASTQ archives and historical denosing.zip are separate files. These underlying sequencing measurements remain included; no derived manuscript results are deposited in this version.
+The package is intended to make the workflow easy to inspect, rerun, and audit while keeping the publication documents and manuscript artifacts separate from the code and data release.
 
-## Run
-Extract Astera_focused_code.zip and Astera_source_data.zip into the same directory. If using GitHub, use the contents of github_upload/ as this directory. With Python 3.9 and the dependencies in environment/requirements-python-validated.txt:
+## Package contents
 
-```sh
+- [source](source) — focused analysis workflow and validation scripts
+- [environment](environment) — validated environment metadata
+- [manuscript](manuscript) — manuscript generation and validation support
+- [reproducibility_update_2026_10_27](reproducibility_update_2026_10_27) — public reproducibility package and audit results
+
+## Public data release
+
+This repository references the public release records:
+
+- Zenodo v2.0.0: https://doi.org/10.5281/zenodo.23603407
+- Earlier release: https://doi.org/10.5281/zenodo.23582246
+
+The source-data archive and focused analysis code are intended for transparent reuse. The manuscript and supplementary documents are maintained separately from the code repository.
+
+## Quick start
+
+Use the validated Python environment described in [environment/requirements-python-validated.txt](environment/requirements-python-validated.txt).
+
+From this folder, run:
+
+```bash
 python source/run_retained_checks.py
 ```
 
-This runs rarefaction, management-only whole-profile PERMANOVA and marker-specific network reconstruction. New numerical outputs are written locally under reproduced/. No figures or preprint documents are generated. There is no comparison against archived manuscript tables because those tables are intentionally excluded.
+This script executes the retained analysis workflow for the focused package, including rarefaction, management-only PERMANOVA, and marker-specific network reconstruction.
 
-Optional R adapters source/run_maaslin2_management.R and source/run_balanced_sensitivity.R are provided but were not executed in this environment. The balanced adapter creates new subsets and records their IDs; it does not recover historical subsets. MaAsLin2 is management-only. The Python runner does not refit either R analysis. No historical R lockfile or validated end-to-end raw-read pipeline is claimed.
+## Reproducibility and audit package
+
+The public reproducibility update is here:
+
+- [reproducibility_update_2026_10_27](reproducibility_update_2026_10_27)
+
+This folder contains:
+
+- the packaged archive
+- verification notes
+- comparison metadata
+- execution metadata
+- balanced comparison output
+- R environment details
+
+This material is intended to make the audit trail easy to inspect and share publicly without overstating the scope of verification.
 
 ## Scope and limitations
-Code analyzes each marker separately. Carbon, cross-marker and date-effect analyses are excluded. Dates remain metadata only. Management and collection date are confounded; recorded profiles do not establish farm-level independence. Networks are statistical associations rather than demonstrated interactions. The full raw-read-to-final-table lineage remains incompletely documented.
+
+The focused package is intentionally scoped to the retained analyses and does not claim a full public reconstruction of every historical workflow step.
+
+Important limitations include:
+
+- MaAsLin2 remains dependent on the required package installation.
+- The balanced adapter creates new subsets and does not recover the historical selection.
+- Management and collection date remain confounded in the study design.
+- The complete raw-read-to-final-table lineage remains incompletely documented.
 
 ## Licensing
-Publication licenses remain to be finalized. LICENSE_PLAN.md is a plan, not a license grant. Preserve third-party notices.
+
+This repository is distributed under the [MIT License](../LICENSE), while dataset licensing remains as specified in the associated Zenodo record.
