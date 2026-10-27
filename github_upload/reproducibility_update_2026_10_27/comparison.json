@@ -1,0 +1,54 @@
+{
+  "rtol": 1e-10,
+  "atol": 1e-12,
+  "comparisons": [
+    {
+      "reference": "Table2_alpha.csv",
+      "output": "rarefied/audit/alpha_tests_with_BH.csv",
+      "status": "Verified",
+      "rows": 6
+    },
+    {
+      "reference": "Table3_beta_restricted.csv",
+      "output": "restricted_permanova/model_statistics.csv",
+      "status": "Verified",
+      "rows": 3
+    },
+    {
+      "reference": "S4_network_metrics.csv",
+      "output": "network_edges/network_summary.csv",
+      "status": "Verified",
+      "rows": 6
+    },
+    {
+      "reference": "alpha_all_scenarios.csv",
+      "output": "rarefied/rarefaction/alpha_tests_rarefied.csv",
+      "status": "Verified",
+      "rows": 12
+    },
+    {
+      "reference": "depth_selection.csv",
+      "output": "rarefied/rarefaction/depth_selection.csv",
+      "status": "Verified",
+      "rows": 6
+    },
+    {
+      "reference": "unique_ASV_retention_summary.csv",
+      "output": "rarefied/rarefaction/unique_ASV_retention_summary.csv",
+      "status": "Verified",
+      "rows": 6
+    },
+    {
+      "reference": "per_draw_test_summary.csv",
+      "output": "rarefied/rarefaction/per_draw_test_summary.csv",
+      "status": "Verified",
+      "rows": 12
+    },
+    {
+      "reference": "sample_alpha_rarefied.csv",
+      "output": "rarefied/rarefaction/sample_alpha_rarefied.csv",
+      "status": "Verified",
+      "rows": 256
+    }
+  ]
+}
