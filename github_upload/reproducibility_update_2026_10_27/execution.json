@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-27",
+  "source": "Local release archives; remote Zenodo identity not independently confirmed",
+  "python": "3.9.21",
+  "packages": {
+    "numpy": "1.23.5",
+    "pandas": "2.3.3",
+    "scipy": "1.9.3",
+    "statsmodels": "0.14.6",
+    "threadpoolctl": "3.6.0"
+  },
+  "archives": {
+    "Astera_focused_code.zip": "eb34f68b4c9ac2b171a63ce5f25dd14a7c75f8a9c3349d19db18af303afcf0e2",
+    "Astera_source_data.zip": "801abdd5877cfe55bf5f8814e383ecbb72c52396deb96a419c8deb1b2da8bdb8",
+    "denosing.zip": "35144420e6728bc8ae189a970cda69cc251c1bfae6166b9bc53d9b7d9368a29b"
+  },
+  "python_command": "python source/run_retained_checks.py",
+  "python_exit_code": 0,
+  "reference_source": "biorxiv_submission_2026_10_23/revised_2026_10_26/results; local retained manuscript tables, not independently downloaded published manuscript"
+}

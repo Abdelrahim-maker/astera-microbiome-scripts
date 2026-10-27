@@ -1,0 +1,40 @@
+reference,group,metric,actual,expected,matches
+S6_beta_balanced.csv,16S,median_permanova_r2,0.08302735842860301,0.0740704850249885,False
+S6_beta_balanced.csv,16S,median_permanova_p,0.015,0.032,False
+S6_beta_balanced.csv,16S,frac_permanova_p_lt_0_05,0.8,0.9,False
+S6_beta_balanced.csv,16S,median_permdisp_p,0.9045000000000001,0.8044999999999999,False
+S6_beta_balanced.csv,16S,frac_permdisp_p_lt_0_05,0.0,0.0,True
+S6_beta_balanced.csv,AMF,median_permanova_r2,0.06378958575556329,0.0669446635760359,False
+S6_beta_balanced.csv,AMF,median_permanova_p,0.16749999999999998,0.1205,False
+S6_beta_balanced.csv,AMF,frac_permanova_p_lt_0_05,0.2,0.2,True
+S6_beta_balanced.csv,AMF,median_permdisp_p,0.759,0.79,False
+S6_beta_balanced.csv,AMF,frac_permdisp_p_lt_0_05,0.0,0.0,True
+S6_beta_balanced.csv,ITS,median_permanova_r2,0.109809808517989,0.099145599410455,False
+S6_beta_balanced.csv,ITS,median_permanova_p,0.057499999999999996,0.0765,False
+S6_beta_balanced.csv,ITS,frac_permanova_p_lt_0_05,0.45,0.35,False
+S6_beta_balanced.csv,ITS,median_permdisp_p,0.32599999999999996,0.378,False
+S6_beta_balanced.csv,ITS,frac_permdisp_p_lt_0_05,0.0,0.0,True
+S5_network_balanced.csv,"('16S', 'NT')",median_nodes,204.0,197.5,False
+S5_network_balanced.csv,"('16S', 'NT')",median_edges,843.0,706.0,False
+S5_network_balanced.csv,"('16S', 'NT')",median_mean_degree,8.308435255290235,7.183489681050657,False
+S5_network_balanced.csv,"('16S', 'NT')",median_density,0.0398426219523626,0.0353910373556784,False
+S5_network_balanced.csv,"('16S', 'till')",median_nodes,179.0,179.0,True
+S5_network_balanced.csv,"('16S', 'till')",median_edges,344.0,344.0,True
+S5_network_balanced.csv,"('16S', 'till')",median_mean_degree,3.84357541899441,3.843575418994413,True
+S5_network_balanced.csv,"('16S', 'till')",median_density,0.0215931203314293,0.0215931203314292,True
+S5_network_balanced.csv,"('AMF', 'NT')",median_nodes,241.0,240.0,False
+S5_network_balanced.csv,"('AMF', 'NT')",median_edges,4216.0,4209.5,False
+S5_network_balanced.csv,"('AMF', 'NT')",median_mean_degree,35.914825997139644,36.34210526315789,False
+S5_network_balanced.csv,"('AMF', 'NT')",median_density,0.163988262693154,0.1619319589139297,False
+S5_network_balanced.csv,"('AMF', 'till')",median_nodes,245.0,245.0,True
+S5_network_balanced.csv,"('AMF', 'till')",median_edges,5211.0,5211.0,True
+S5_network_balanced.csv,"('AMF', 'till')",median_mean_degree,42.5387755102041,42.53877551020408,True
+S5_network_balanced.csv,"('AMF', 'till')",median_density,0.174339243894279,0.1743392438942789,True
+S5_network_balanced.csv,"('ITS', 'NT')",median_nodes,83.0,78.0,False
+S5_network_balanced.csv,"('ITS', 'NT')",median_edges,167.5,140.0,False
+S5_network_balanced.csv,"('ITS', 'NT')",median_mean_degree,4.1382783882783905,3.564102564102564,False
+S5_network_balanced.csv,"('ITS', 'NT')",median_density,0.0515211666208089,0.0467573113085034,False
+S5_network_balanced.csv,"('ITS', 'till')",median_nodes,106.0,106.0,True
+S5_network_balanced.csv,"('ITS', 'till')",median_edges,271.0,271.0,True
+S5_network_balanced.csv,"('ITS', 'till')",median_mean_degree,5.11320754716981,5.113207547169812,True
+S5_network_balanced.csv,"('ITS', 'till')",median_density,0.0486972147349506,0.0486972147349505,True
